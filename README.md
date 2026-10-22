@@ -3,6 +3,7 @@
 A small command-line application that checks whether a phone number satisfies the project's E.164 constraint. It uses Micronaut's Bean Validation integration to validate a `Contact` and prints whether the number is valid, along with any validation message.
 
 The validator accepts digits with an optional leading `+`. For example, `+14155552671` is valid, while `+1-4155552671` is not.
+Valid results are shown in green and invalid results in red when the terminal supports ANSI colors.
 
 ## Use the CLI
 
